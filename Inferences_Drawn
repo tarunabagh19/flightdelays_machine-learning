@@ -1,0 +1,35 @@
+### Original XGBoost Model (After Feature Engineering):
+
+Sensitivity or TPR: 10.048641248944165%
+Specificity or TNR: 98.91353133270394%
+Precision: 71.07540173053152%
+Negative Predictive Value: 80.54062568917173%
+False Positive Rate: 1.086468667296055%
+False Negative Rate: 89.95135875105584%
+False Discovery Rate: 28.924598269468483%
+Accuracy: 80.25972279116405%
+Validation AUC: 0.5448108629082405
+
+### XGBoost Model After Hyperparameter Optimization:
+Sensitivity or TPR: 8.86901814580724%
+Specificity or TNR: 98.81680157243899%
+Precision: 66.57192829033669%
+Negative Predictive Value: 80.32015598955876%
+False Positive Rate: 1.1831984275610172%
+False Negative Rate: 91.13098185419275%
+False Discovery Rate: 33.428071709663314%
+Accuracy: 79.93568070237652%
+Validation AUC: 0.5384290985912312
+
+## Comparison:
+
+1. The sensitivity (True Positive Rate) decreased slightly from the original XGBoost model (10.05%) to the model after hyperparameter optimization (8.87%). 
+This indicates that the optimized model is slightly less effective in correctly identifying positive cases (flight delays due to weather) compared to the original model.
+2. The specificity (True Negative Rate) remained relatively similar between the two models, with a slight decrease from 98.91% to 98.82%. 
+This means that both models are good at correctly identifying negative cases (non-delayed flights).
+3. The precision increased from 71.08% to 66.57% in the optimized model. 
+This suggests that the optimized model is slightly better at predicting true positive cases among all the positive predictions it makes.
+4. The accuracy remained relatively stable, with a slight decrease from 80.26% to 79.94%.
+5. The validation AUC decreased from 0.54 to 0.53 in the optimized model. 
+A lower AUC indicates that the model's ability to discriminate between positive and negative cases has decreased slightly.
+
