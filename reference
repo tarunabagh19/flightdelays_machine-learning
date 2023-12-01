@@ -1,0 +1,16 @@
+First, traditional forecasts struggle to incorporate large volumes of historical
+data, missing important signals from the past that are lost in the noise.
+• Second, traditional forecasts rarely incorporate related but independent data,
+which can offer important context (such as price, holidays/events, stock-outs,
+marketing promotions, and so on). Without the full history and the broader
+context, most forecasts fail to predict the future accurately.
+
+. Optimizing decisions in the supply chain 
+
+Retail demand planning – Predict product demand, allowing you to more accurately vary inventory and pricing at different store locations.
+
+Supply chain planning – Predict the quantity of raw goods, services, or other inputs required by manufacturing.
+
+Resource planning – Predict requirements for staffing, advertising, energy consumption, and server capacity.
+
+Operational planning – Predict levels of web traffic, AWS usage, and IoT sensor usage
