@@ -3,10 +3,6 @@ A deep learning project designed to predict flight delays using historical fligh
 
 📌 Project Overview
 This repository illustrates how to forecast flight delays by modeling past flight sequences and environmental inputs. The RNN model learns from features such as carrier code, origin/destination airports, scheduling time, distance, and weather indicators to estimate the likelihood or magnitude of delays.
-
-This project is based on an example shared in a GitHub notebook under the repository tarunabagh19/flightdelays_machine-learning discussed on Stack Overflow 
-sesarju.eu
-stackoverflow.com
 .
 
 ⚙️ Installation & Setup
