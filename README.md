@@ -44,6 +44,10 @@ Feature Engineering: Uses flight and weather data such as airline, airports, sch
 
 Evaluation: Supports classification or regression with metrics like accuracy, precision, recall, F1-score, or mean squared error.
 
+📈 Visualizations & Results
+<img width="1153" height="590" alt="Actualvspredicted (1)" src="https://github.com/user-attachments/assets/f0336f16-14ed-4443-b081-3184c26e222c" />
+
+
 🔗 References & Resources
 Dataset: Historical US flight data & weather info.
 
